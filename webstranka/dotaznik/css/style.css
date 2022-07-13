@@ -1,0 +1,57 @@
+
+/*------Import Fonts----------*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2? family=Roboto:wght@100;400&display=swap');
+/*-----Import CSS-------------*/
+
+@import url('header.css');
+@import url('main.css');
+@import url('mediaQ.css');
+
+/* ----------General-------------------*/
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+:root{
+    --bg:#1f464d;
+    --bbg:#333333;
+    --sbg:#3697a7;
+}
+
+html {
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {   
+    font-family:'Poppins',sans-serif;
+    background: var(--bbg);
+    color: rgb(255 255 255);
+    font-size: 100%;
+  
+   
+}
+h1,h2{
+    font-weight:100;
+}
+h1{
+    font-size:2em;
+}
+footer{
+    text-align: center;
+    display: block;
+    padding: 2em;
+    background: var(--bbg);
+}
+
+
+
+

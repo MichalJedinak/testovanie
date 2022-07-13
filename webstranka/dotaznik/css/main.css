@@ -1,0 +1,105 @@
+main{
+     width: 1024px;
+    height: 100%;
+    font-weight: 400;
+   margin:10em auto;  
+  
+} 
+section{
+    background: var(--bbg);
+    width: 100%;
+    display: flex;
+    
+} 
+section:nth-child(1){
+    margin: 0;
+    padding: 0;
+
+}
+section:nth-child(2){  
+    width: 100%;  
+     margin-top: 9em;
+     margin-left: 0;
+     flex-direction: column;
+}
+
+article{
+    max-width: 60%;
+    padding-right:11em;
+}
+.art-left{
+    text-align: left;
+}
+
+aside{
+    position: relative;
+    bottom: 1em;
+    margin: 0;
+    width:350px;
+    height: 450px;
+    background: url('../accessories/img-1.jpg') no-repeat center;
+    background-size: cover;
+}
+.transparent{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.164);
+}
+
+button{
+    width: 250px;
+    background-color: var(--sbg);    
+    padding: .6em;
+    color: #fff;
+    border: none;
+    margin-top: 2em;
+    margin-left: 0;
+    opacity: 1;
+    cursor: pointer;   
+}
+button:hover,button:focus{
+    background: var(--sbg);
+    opacity: .8;
+}
+
+.art-left p{
+    font-size: 1.05em;
+    line-height: 1.2em;
+    line-break: anywhere;
+    width: 100%;
+}
+.container{
+    position: relative;
+    display: flex;
+    width: 1024px;
+    gap: 1em;
+}
+.container .card::after{
+    content: '';
+    clear: both;
+}
+.container .card{
+    padding-bottom: 2em;
+    width: 300px;
+    margin: auto;
+}
+.container .card-img img{
+    position: relative;
+    width: 300px;
+    height: 200px;    
+}
+
+
+.container .card-text{
+    position: relative;   
+    margin: 0;    
+    width: 100%;
+    height: 200px;
+    background: var(--sbg);
+    padding: 15px;
+
+}
+.container .card-text p{
+    text-align: left;
+}

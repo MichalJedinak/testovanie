@@ -1,0 +1,25 @@
+header{
+    padding: .8em;
+    background: var(--bg);
+    color: rgb(184, 182, 182);
+    font-size: clamp(.8em, 1vw,1em);
+}
+.float-right{   
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;    
+    justify-content: flex-end;
+    gap: 1.5em;
+    margin-right: 10%;
+    background: var(--bg);
+    cursor: pointer;    
+}
+li{
+background: var(--bg);
+opacity: 1;
+}
+
+.li-hv:hover{
+opacity: .6;
+text-shadow: 0px 0 1px #fff;
+}
