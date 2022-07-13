@@ -22,6 +22,9 @@ section:nth-child(2){
      margin-left: 0;
      flex-direction: column;
 }
+section:nth-child(2) h2{
+    padding-left: 20px;
+}
 
 article{
     max-width: 60%;
