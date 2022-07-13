@@ -5,8 +5,8 @@ main{
    margin:10em auto;  
   
 } 
-section{
     background: var(--bbg);
+section{
     width: 100%;
     display: flex;
     
@@ -22,7 +22,7 @@ section:nth-child(2){
      margin-left: 0;
      flex-direction: column;
 }
-section:nth-child(2) h2{
+section:nth-child(2)> h2{
     padding-left: 20px;
 }
 
@@ -32,6 +32,8 @@ article{
 }
 .art-left{
     text-align: left;
+    font-size:clamp(1em,3vw,1.5em);
+
 }
 
 aside{
