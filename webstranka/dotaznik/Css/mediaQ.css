@@ -1,0 +1,37 @@
+@media (max-width:1090px) {
+  
+    
+     .container {
+        flex-wrap: wrap;
+     }
+    aside{
+        margin-top: 2em;
+        margin-left: 20px;
+    }
+    section:nth-child(1){
+        flex-direction: column;
+       
+    }
+    article{
+        padding-right: 5em;
+    }
+    
+}
+
+@media (max-width:1001px) {
+        
+    .container{
+      flex-direction: column;      
+      justify-content: baseline;
+      align-content: flex-start;
+    }
+}
+
+@media (max-width:740px) {
+        
+    .art-left p{
+    
+        line-break: auto;
+        
+    }
+}
